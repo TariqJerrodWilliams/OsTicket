@@ -179,7 +179,7 @@ Finish <b>Database Settings</b>. The Information For <b>Name</b> Is "osTicket". 
 <img src="https://i.imgur.com/0oCEUCw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p align="center">
-Change Inheritance Of Everyone To <b>Read</b> Only.
+Return To: (C:\inetpub\wwwroot\osTicket\include\ost-config.php), Open Properties > Security. Change Permissions To Read-Only.
 </p>
 <br />
 
