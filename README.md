@@ -111,9 +111,19 @@ Right Click <b>ost-config.php</b>.</p><p align="center"> In <b>Properties</b>, U
 
 <p align="center">
 <img src="https://i.imgur.com/AilrtxV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pUWUIfx_d.webp?maxwidth=760&fidelity=grand" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KUbgDDL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vn3dDV6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p align="center">
+1. In IIS, Open: <b>osticket</b> > <b>Sites</b> > <b>Default Web Site</b> > <b>osTicket</b> And Double-Click <b>PHP Manager</b>.
 </p>
 <p align="center">
-...IIS enable...fix
+2. Under <b>PHP Extensions</b>, Click: <b>Enable Or Disable An Extension</b>.
+</p>
+<p align="center">
+3. Enable <b>php_imap.dll</b>, <b>php_intl.dll</b>, And <b>php_opcache.dll</b>.
 </p>
 <br />
 
